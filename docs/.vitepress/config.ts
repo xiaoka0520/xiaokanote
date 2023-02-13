@@ -27,15 +27,15 @@ export default defineConfig({
                 ]
             }
         ],
-        sidebar: [
-            {
-              text: 'Guide',
-              items: [
-                { text: 'Introduction', link: '/introduction' },
-                { text: 'Getting Started', link: '/getting-started' },
-              ]
-            }
-          ],
+        // sidebar: [
+        //     {
+        //         text: 'Guide',
+        //         items: [
+        //             { text: 'Introduction', link: '/introduction' },
+        //             { text: 'Getting Started', link: '/getting-started' },
+        //         ]
+        //     }
+        // ],
         socialLinks: [
             { icon: 'github', link: 'https://github.com/xiaoka0520' },
             { icon: 'twitter', link: '...' },
@@ -50,11 +50,11 @@ export default defineConfig({
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Copyright © 2022-present kaka'
-          },
-          editLink: {
+        },
+        editLink: {
             pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
             text: 'Edit this page on GitHub'
-          },
-          lastUpdatedText: 'Updated Date'
+        },
+        lastUpdatedText: 'Updated Date'
     }
 })

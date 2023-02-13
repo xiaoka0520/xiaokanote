@@ -5,7 +5,7 @@ export default defineConfig({
     title: "kaka",
     description: "vite & vue", // 描述
     appearance: true,
-    // base: '/xiaokanote/',
+    base: '/xiaokanote/',
     head: [
         ['link', { rel: 'preconnect', href: 'https://www.baidu.com', crossorigin: '' }]
     ],

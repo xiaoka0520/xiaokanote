@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
     lang: "en-US",
-    title: "vitepress",
+    title: "kaka",
     description: "vite & vue", // 描述
     appearance: true,
     base: '/xiaokanote/',
@@ -29,14 +29,13 @@ export default defineConfig({
         ],
         sidebar: [
             {
-                text: 'Guide',
-                items: [
-                    { text: 'vue', link: '/main/vue/index.md' },
-                    { text: 'react', link: '/main/react/index.md' },
-                    { text: 'uni-app', link: '/main/uni-app/index.md' },
-                ]
+              text: 'Guide',
+              items: [
+                { text: 'Introduction', link: '/introduction' },
+                { text: 'Getting Started', link: '/getting-started' },
+              ]
             }
-        ],
+          ],
         socialLinks: [
             { icon: 'github', link: 'https://github.com/xiaoka0520' },
             { icon: 'twitter', link: '...' },
